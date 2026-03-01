@@ -9,7 +9,7 @@ Most supply chain dashboards tell you **what already broke**.
 
 This system tells you **what is about to break** - and exactly how much it will cost if you don't act.
 
-Indian D2C brands, FMCG manufacturers, and retail chains lose **15–30% of annual revenue** to supply chain disruptions — stockouts, supplier failures, dead stock, and demand volatility. Yet most analytics teams only build reactive dashboards.
+Indian D2C brands, FMCG manufacturers, and retail chains lose **15–30% of annual revenue** to supply chain disruptions - stockouts, supplier failures, dead stock, and demand volatility. Yet most analytics teams only build reactive dashboards.
 
 This project builds a **proactive disruption intelligence system** that:
 - Scores every supplier by reliability before they fail
@@ -210,9 +210,9 @@ Three business stress-test scenarios:
 
 | Scenario | Description | Revenue at Risk |
 |----------|-------------|----------------|
-| A | SnackFactory India fails — 21 days | ₹X Lakhs |
-| B | Diwali demand spike 1.8x — 14 days | ₹X Lakhs |
-| C | Dual supplier failure — 30 days | ₹14.1 Lakhs (worst case) |
+| A | SnackFactory India fails - 21 days | ₹X Lakhs |
+| B | Diwali demand spike 1.8x - 14 days | ₹X Lakhs |
+| C | Dual supplier failure - 30 days | ₹14.1 Lakhs (worst case) |
 
 ![Page 4 Demand Forecast](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%204%20Demand%20Forecast.png)
 
