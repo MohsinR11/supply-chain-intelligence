@@ -36,20 +36,6 @@ This project builds a **proactive disruption intelligence system** that:
 
 ---
 
-
-![Page 1 Executive Command Center](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%201%20Executive%20Command%20Center.png)
-
-![Page 2 Supplier Intelligence](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%202%20Supplier%20Intelligence.png)
-
-![Page 3 Inventory Health](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%203%20Inventory%20Health.png)
-
-![Page 4 Demand Forecast](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%204%20Demand%20Forecast.png)
-
-![Page 5 Disruption Simulation](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%205%20Disruption%20Simulation.png)
-
-
----
-
 ## 🏗️ Project Architecture
 
 ```
