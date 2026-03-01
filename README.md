@@ -345,9 +345,9 @@ Based on analysis findings:
 
 **Built by:** Mohsin Raza
 
-**LinkedIn:** https://www.linkedin.com/in/mohsinraza-data/
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mohsinraza-data/)
 
-**Email:** mohsinansari1799@gmail.com
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohsinansari1799@gmail.com)
 
 
 *This project was built to demonstrate end-to-end data analytics capability targeting Supply Chain, Operations, and Business Intelligence roles in Indian D2C, FMCG, and Manufacturing companies.*
