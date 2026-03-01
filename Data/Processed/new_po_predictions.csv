@@ -1,0 +1,6 @@
+supplier_name,delay_probability,predicted_outcome,risk_level
+SnackFactory India,0.6539291127190329,WILL DELAY,HIGH
+Agro Fresh Pvt Ltd,0.13574095447471998,ON TIME,LOW
+DrinkWell Co,0.4651482847544557,ON TIME,MEDIUM
+PureFarm Commodities,0.1387418761364828,ON TIME,LOW
+GreenLeaf Essentials,0.6502823972490659,WILL DELAY,HIGH

@@ -1,0 +1,4 @@
+scenario,total_skus_affected,skus_that_stockout,critical_skus,total_revenue_at_risk,total_emergency_cost,avg_days_to_stockout
+Scenario A: SnackFactory India fails (21 days),10,7,1,251835.49,188951.31,17.14
+Scenario B: Diwali Spike 1.8x Demand (14 days),10,10,2,427322.44999999995,323151.15,9.73
+Scenario C: Dual Failure — GreenLeaf + DrinkWell (30 days),20,20,9,1406629.02,1033627.5,16.855

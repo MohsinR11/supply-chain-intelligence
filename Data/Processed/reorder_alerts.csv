@@ -1,0 +1,11 @@
+sku_id,product_name,current_stock,reorder_point,days_of_stock,projected_stockout_date,demand_next_7d,demand_next_14d,demand_next_30d,recommended_moq,reorder_value_inr,urgency
+SKU008,Salt 1kg,411,327,7.8,2025-01-08,370.0,741.0,1587.0,1635,447515.85,🔴 URGENT — Order NOW
+SKU017,Hair Oil 200ml,417,416,14.0,2025-01-15,209.0,418.0,896.0,1664,641754.88,🟡 HIGH — Order within 7 days
+SKU016,Rose Water 200ml,480,434,14.5,2025-01-15,231.0,463.0,992.0,868,300258.56,🟡 HIGH — Order within 7 days
+SKU039,Rose Sherbet 750ml,713,726,18.5,2025-01-19,270.0,540.0,1158.0,2178,767897.46,🟢 MEDIUM — Order within 14 days
+SKU011,Cold Press Coconut Oil 500ml,691,303,22.2,2025-01-23,218.0,435.0,932.0,1515,568291.65,🟢 MEDIUM — Order within 14 days
+SKU022,Mathri 400g,1922,842,36.6,2025-02-06,368.0,735.0,1576.0,2526,571558.02,✅ OK — Sufficient stock
+SKU020,Face Scrub 100g,1407,608,48.3,2025-02-18,204.0,408.0,874.0,2432,891352.32,✅ OK — Sufficient stock
+SKU033,Turmeric Latte 200g,2451,984,60.3,2025-03-02,285.0,569.0,1220.0,2952,964270.7999999999,✅ OK — Sufficient stock
+SKU014,Aloe Vera Gel 150g,1690,367,61.0,2025-03-03,194.0,388.0,831.0,1835,589053.35,✅ OK — Sufficient stock
+SKU035,Protein Shake Mix 500g,2267,930,62.6,2025-03-04,253.0,507.0,1086.0,3720,1375172.4000000001,✅ OK — Sufficient stock
