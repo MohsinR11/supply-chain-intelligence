@@ -28,9 +28,9 @@ This project builds a **proactive disruption intelligence system** that:
 | Procurement Value at Risk | ₹16.7 Cr (15.1% of total spend) |
 | Dead Stock SKUs | 44 of 50 SKUs with >26 weeks of stock |
 | Capital Locked in Dead Stock | ₹4.67 Cr |
-| Worst Case Revenue at Risk | ₹1.4 Cr (Dual supplier failure — 30 days) |
+| Worst Case Revenue at Risk | ₹1.4 Cr (Dual supplier failure - 30 days) |
 | Total Financial Exposure | ₹2.08 Cr across all 3 stress scenarios |
-| ML Model AUC Score | 0.71 (Random Forest — PO delay prediction) |
+| ML Model AUC Score | 0.71 (Random Forest - PO delay prediction) |
 | SKUs Needing Urgent Reorder | 1 immediate + 2 on high alert |
 | Total Reorder Value Identified | ₹71.1 Lakhs |
 
@@ -218,7 +218,7 @@ Three business stress-test scenarios:
 
 ---
 
-### Module 5 — ML Delay Prediction (Random Forest)
+### Module 5 - ML Delay Prediction (Random Forest)
 
 - **Target:** Will this PO be delayed? (Binary classification)
 - **Features:** 20 features including supplier history, order size, seasonality, composite score
@@ -259,11 +259,11 @@ GROUP BY HAVING, CASE WHEN, NULLIF, multi-table JOINs, subqueries.
 
 | Page | Content |
 |------|---------|
-| 1 — Executive Command Center | KPI cards, supplier risk table, revenue trend |
-| 2 — Supplier Intelligence | Scorecard bar chart, scatter plot, defect trends |
-| 3 — Inventory Health | ABC-XYZ heatmap, dead stock analysis, warehouse trends |
-| 4 — Demand Forecast & Reorder Alerts | Prophet forecast, reorder urgency, ML predictions |
-| 5 — Disruption Simulation | Scenario analysis, SKU impact table, financial exposure |
+| 1 - Executive Command Center | KPI cards, supplier risk table, revenue trend |
+| 2 - Supplier Intelligence | Scorecard bar chart, scatter plot, defect trends |
+| 3 - Inventory Health | ABC-XYZ heatmap, dead stock analysis, warehouse trends |
+| 4 - Demand Forecast & Reorder Alerts | Prophet forecast, reorder urgency, ML predictions |
+| 5 - Disruption Simulation | Scenario analysis, SKU impact table, financial exposure |
 
 **24 DAX measures** including conditional aggregations, CALCULATE filters,
 RELATED lookups, and DIVIDE with error handling.
@@ -280,19 +280,19 @@ Power BI Desktop
 Jupyter Notebook
 ```
 
-### Step 1 — Install Python Libraries
+### Step 1 - Install Python Libraries
 ```bash
 pip install pandas numpy faker scikit-learn prophet matplotlib seaborn plotly shap openpyxl sqlalchemy psycopg2-binary
 ```
 
-### Step 2 — Generate Dataset
+### Step 2 - Generate Dataset
 ```bash
 # Run notebooks in order
 01_data_generator.ipynb
 02_data_cleaning.ipynb
 ```
 
-### Step 3 — Run Analysis
+### Step 3 - Run Analysis
 ```bash
 03_supplier_scorecard.ipynb
 04_inventory_health.ipynb
@@ -301,7 +301,7 @@ pip install pandas numpy faker scikit-learn prophet matplotlib seaborn plotly sh
 07_ml_supplier_risk.ipynb
 ```
 
-### Step 4 — Load to PostgreSQL
+### Step 4 - Load to PostgreSQL
 ```bash
 # Create database in pgAdmin: supply_chain_db
 # Run schema script
@@ -311,7 +311,7 @@ sql/01_schema.sql
 08_load_to_postgresql.ipynb
 ```
 
-### Step 5 — Open Dashboard
+### Step 5 - Open Dashboard
 ```
 Open dashboard/supply_chain_intelligence_dashboard.pbix
 Connect to your PostgreSQL instance
@@ -335,7 +335,7 @@ Based on analysis findings:
 - Deploy ML delay prediction model for all incoming POs
 
 **Strategic (90+ days)**
-- Reduce supplier concentration — top 3 suppliers account for 40%+ of spend
+- Reduce supplier concentration - top 3 suppliers account for 40%+ of spend
 - Build multi-supplier strategy for each category
 - Implement real-time inventory tracking replacing weekly snapshots
 
@@ -354,4 +354,4 @@ Based on analysis findings:
 
 ---
 
-> *"Most supply chain dashboards tell you what already broke. This system tells you what is about to break — and exactly how much it will cost if you don't act."*
+> *"Most supply chain dashboards tell you what already broke. This system tells you what is about to break - and exactly how much it will cost if you don't act."*
