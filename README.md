@@ -344,8 +344,11 @@ Based on analysis findings:
 ## 📞 Connect
 
 **Built by:** Mohsin Raza
+
 **LinkedIn:** https://www.linkedin.com/in/mohsinraza-data/
+
 **Email:** mohsinansari1799@gmail.com
+
 
 *This project was built to demonstrate end-to-end data analytics capability targeting Supply Chain, Operations, and Business Intelligence roles in Indian D2C, FMCG, and Manufacturing companies.*
 
