@@ -7,7 +7,7 @@
 
 Most supply chain dashboards tell you **what already broke**.
 
-This system tells you **what is about to break** — and exactly how much it will cost if you don't act.
+This system tells you **what is about to break** - and exactly how much it will cost if you don't act.
 
 Indian D2C brands, FMCG manufacturers, and retail chains lose **15–30% of annual revenue** to supply chain disruptions — stockouts, supplier failures, dead stock, and demand volatility. Yet most analytics teams only build reactive dashboards.
 
@@ -177,7 +177,7 @@ Simulated dataset representing a mid-size Indian D2C/FMCG brand (FY 2023–2024)
 
 ## 🔬 Analysis Modules
 
-### Module 1 — Supplier Risk Scorecard
+### Module 1 - Supplier Risk Scorecard
 Composite scoring formula across 4 dimensions:
 
 ```
@@ -188,29 +188,37 @@ Supplier Risk Score (0–100) =
   (1 − Delay Rate)       × 15
 ```
 
+![Page 1 Executive Command Center](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%201%20Executive%20Command%20Center.png)
+
 **Result:** 3 RED zone suppliers identified with ₹16.7 Cr procurement at risk.
 
 ---
 
-### Module 2 — Inventory Health (ABC-XYZ Matrix)
+### Module 2 - Inventory Health (ABC-XYZ Matrix)
 
 - **ABC Analysis:** Revenue contribution segmentation (A=top 70%, B=next 20%, C=bottom 10%)
 - **XYZ Analysis:** Demand variability via Coefficient of Variation
 - **Dead Stock Detection:** SKUs with >26 weeks of stock flagged
+
+![Page 2 Supplier Intelligence](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%202%20Supplier%20Intelligence.png)
+
 - **Result:** 44 dead stock SKUs, ₹4.67 Cr capital locked
 
 ---
 
-### Module 3 — Demand Forecasting (Prophet)
+### Module 3 - Demand Forecasting (Prophet)
 
 - Facebook Prophet with Indian festival seasonality (Diwali, Q4 spikes)
 - 12-week forward forecast for top 10 A-category SKUs
 - Dynamic reorder point: `(Avg Daily Demand × Lead Time) + Safety Stock`
+
+![Page 3 Inventory Health](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%203%20Inventory%20Health.png)
+
 - **Result:** 1 urgent reorder, 2 high alert SKUs, ₹71.1L reorder value
 
 ---
 
-### Module 4 — Disruption Simulation
+### Module 4 - Disruption Simulation
 
 Three business stress-test scenarios:
 
@@ -219,6 +227,8 @@ Three business stress-test scenarios:
 | A | SnackFactory India fails — 21 days | ₹X Lakhs |
 | B | Diwali demand spike 1.8x — 14 days | ₹X Lakhs |
 | C | Dual supplier failure — 30 days | ₹14.1 Lakhs (worst case) |
+
+![Page 4 Demand Forecast](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%204%20Demand%20Forecast.png)
 
 ---
 
@@ -229,6 +239,9 @@ Three business stress-test scenarios:
 - **Model:** Random Forest (300 trees, balanced class weights)
 - **Performance:** AUC = 0.71
 - **Explainability:** SHAP values identify top delay drivers
+
+![Page 5 Disruption Simulation](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%205%20Disruption%20Simulation.png)
+
 - **Output:** Delay probability score for every incoming PO
 
 ---
