@@ -36,6 +36,20 @@ This project builds a **proactive disruption intelligence system** that:
 
 ---
 
+
+![Page 1 Executive Command Center](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%201%20Executive%20Command%20Center.png)
+
+![Page 2 Supplier Intelligence](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%202%20Supplier%20Intelligence.png)
+
+![Page 3 Inventory Health](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%203%20Inventory%20Health.png)
+
+![Page 4 Demand Forecast](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%204%20Demand%20Forecast.png)
+
+![Page 5 Disruption Simulation](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%205%20Disruption%20Simulation.png)
+
+
+---
+
 ## 🏗️ Project Architecture
 
 ```
@@ -173,9 +187,6 @@ Supplier Risk Score (0–100) =
   Quality Rate           × 20
   (1 − Delay Rate)       × 15
 ```
-
-![Page 1 Executive Command Center](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%201%20Executive%20Command%20Center.png)
-
 **Result:** 3 RED zone suppliers identified with ₹16.7 Cr procurement at risk.
 
 ---
@@ -185,9 +196,6 @@ Supplier Risk Score (0–100) =
 - **ABC Analysis:** Revenue contribution segmentation (A=top 70%, B=next 20%, C=bottom 10%)
 - **XYZ Analysis:** Demand variability via Coefficient of Variation
 - **Dead Stock Detection:** SKUs with >26 weeks of stock flagged
-
-![Page 2 Supplier Intelligence](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%202%20Supplier%20Intelligence.png)
-
 - **Result:** 44 dead stock SKUs, ₹4.67 Cr capital locked
 
 ---
@@ -197,9 +205,6 @@ Supplier Risk Score (0–100) =
 - Facebook Prophet with Indian festival seasonality (Diwali, Q4 spikes)
 - 12-week forward forecast for top 10 A-category SKUs
 - Dynamic reorder point: `(Avg Daily Demand × Lead Time) + Safety Stock`
-
-![Page 3 Inventory Health](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%203%20Inventory%20Health.png)
-
 - **Result:** 1 urgent reorder, 2 high alert SKUs, ₹71.1L reorder value
 
 ---
@@ -214,8 +219,6 @@ Three business stress-test scenarios:
 | B | Diwali demand spike 1.8x - 14 days | ₹X Lakhs |
 | C | Dual supplier failure - 30 days | ₹14.1 Lakhs (worst case) |
 
-![Page 4 Demand Forecast](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%204%20Demand%20Forecast.png)
-
 ---
 
 ### Module 5 - ML Delay Prediction (Random Forest)
@@ -225,9 +228,6 @@ Three business stress-test scenarios:
 - **Model:** Random Forest (300 trees, balanced class weights)
 - **Performance:** AUC = 0.71
 - **Explainability:** SHAP values identify top delay drivers
-
-![Page 5 Disruption Simulation](https://github.com/MohsinR11/supply-chain-intelligence/blob/main/Screenshots/Dashboard%20Screenshots/Page%205%20Disruption%20Simulation.png)
-
 - **Output:** Delay probability score for every incoming PO
 
 ---
