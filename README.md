@@ -1,5 +1,5 @@
 # 🏭 Supply Chain Disruption Intelligence System
-### End-to-End Advanced Data Analytics Project | Python • SQL • Power BI • Machine Learning
+## End-to-End Advanced Data Analytics Project | Python • SQL • Power BI • Machine Learning
 
 ---
 
